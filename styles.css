@@ -3,6 +3,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
   height: 100%;
   line-height: 1.8;
+  background-color: lightblue;
 }
 
 /* Full height image header */
@@ -15,4 +16,13 @@ body, html {
 
 .w3-bar .w3-button {
   padding: 16px;
+}
+.Header{
+  position: relative;
+  top: 200px;
+  left: 380px;
+  padding-bottom: 50px;
+}
+.w3-rightw3-hide-small{
+  background-color: darkblue;
 }
