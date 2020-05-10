@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+
+    <title></title>
+<script>
+  function fn_submit(data)
+  {
+     if(data=='student'){
+       document.formName.action="enroll-files/student.html"
+       document.formName.submit();
+     }
+     else {
+       document.formName.action="enroll-files/business.html"
+       document.formName.submit();
+     }
+  }
+</script>
+
+  </head>
+  <body>
+    <div class="textenroll">
+      <h1 class="padding">ENROLL NOW!</h1>
+      <h2 class="padding">Are you a student or business?</h2>
+      <input type="button" class="buttonsize" value="STUDENT" onclick="fn_submit('student')">
+      <input type="button" class="buttonsize" value="BUSINESS" onclick="fn_submit('business')">
+    </div>
+
+
+
+    <form name="formName">
+
+
+</form>
+  </body>
+</html>

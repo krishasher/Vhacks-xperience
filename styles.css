@@ -26,3 +26,16 @@ body, html {
 .w3-rightw3-hide-small{
   background-color: darkblue;
 }
+.textenroll{
+  text-align: center;
+}
+.padding{
+  padding-bottom: 50px;
+}
+.buttonsize{
+  position: relative;
+  top:300px;
+  padding: 80px;
+  height: 60px;
+  width: 100px;
+}
